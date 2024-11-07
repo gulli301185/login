@@ -1,7 +1,7 @@
 export const Login = () => {
   return (
     <div className="h-screen  flex justify-center items-center">
-      <div className="bg-pink-300 p-8 space-y-8 rounded-lg">
+      <div className="bg-pink-300 px-2 py-8 space-y-8 rounded-lg">
         <h1 className="text-sm lg:text-3xl text-gray-700 font-bold text-center pb-0 lg:pb-8">
           Login
         </h1>
