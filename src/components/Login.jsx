@@ -1,6 +1,6 @@
 export const Login = () => {
   return (
-    <div className="h-screen container bg-slate-400  flex justify-center items-center">
+    <div className="h-screen container mx-auto  flex justify-center items-center">
       <div className=" w-[600px] mx-auto bg-pink-300 px-2 py-8 space-y-8 rounded-lg">
         <h1 className="text-sm lg:text-3xl text-gray-700 font-bold text-center ">
           Login
