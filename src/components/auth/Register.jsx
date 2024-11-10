@@ -16,7 +16,7 @@ const Register = () => {
           </button>
         </div>
       </div>
-      <div className="space-y-10 lg:w-1/2 w-[90%] ">
+      <div className="space-y-10 lg:w-1/2 w-[95%] ">
         <h1 className="text-gray-300 lg:text-3xl text-lg font-sans leading-relaxed whitespace-pre-line flex justify-center">
           {` Sign up for free and\n experience Heroku today`}
         </h1>
@@ -77,7 +77,7 @@ const Register = () => {
               <div className="border-b-2 border-gray-400  shadow-lg"></div>
             </div>
           </div>
-          <div className="bg-white my-8 rounded-lg  shadow-2xl lg:-right-24 lg:relative  max-w-96">
+          <div className="bg-white my-8 rounded-lg  shadow-2xl  lg:-right-24 lg:relative  max-w-96">
             <div className="m-6  space-y-10 mb-12 ">
               <div className="flex flex-col">
                 <label
