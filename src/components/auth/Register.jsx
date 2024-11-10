@@ -1,7 +1,7 @@
 const Register = () => {
   return (
-    <div className=" flex flex-col space-y-20 justify-center items-center bg-blue-800 py-8">
-      <div className=" flex justify-around w-full">
+    <div className=" flex flex-col lg:space-y-20 space-y-8 justify-center items-center bg-blue-800 py-8">
+      <div className=" lg:flex lg:justify-around lg:flex-row flex-col flex items-center lg:space-y-8 space-y-4 w-full">
         <img
           width={250}
           height={250}
@@ -9,19 +9,19 @@ const Register = () => {
           src="https://banner2.cleanpng.com/20180825/cka/kisspng-logo-node-js-heroku-scalable-vector-graphics-font-mode-analytics-status-change-notifications-1713948947624.webp"
           alt=""
         />
-        <div className="flex items-center text-xl gap-8 font-semibold text-gray-300">
+        <div className="flex lg:flex-row flex-col items-center lg:text-xl text-md gap-3 lg:gap-8 font-semibold text-gray-300">
           <span>Already have an account?</span>
           <button className="py-2 px-6 hover:bg-slate-300 hover:text-blue-700 bg-blue-900 rounded-md">
             Log in
           </button>
         </div>
       </div>
-      <div className="space-y-10 w-2/4 ">
-        <h1 className="text-gray-300 text-3xl font-sans leading-relaxed whitespace-pre-line flex justify-center">
+      <div className="space-y-10 lg:w-1/2 w-2/3 ">
+        <h1 className="text-gray-300 lg:text-3xl text-lg font-sans leading-relaxed whitespace-pre-line flex justify-center">
           {` Sign up for free and\n experience Heroku today`}
         </h1>
-        <div className="bg-slate-300 flex   rounded-lg shadow-lg relative">
-          <div className="w-1/2 ">
+        <div className="bg-slate-300 flex lg:flex-row flex-col  rounded-lg shadow-lg relative">
+          <div className="lg:w-1/2 w-full">
             <div className="flex flex-col justify-center p-10 space-y-8 ">
               <div className="flex space-x-6">
                 <img
@@ -77,7 +77,7 @@ const Register = () => {
               <div className="border-b-2 border-gray-400  shadow-lg"></div>
             </div>
           </div>
-          <div className="bg-white my-8 rounded-lg  shadow-2xl -right-24 relative  w-96">
+          <div className="bg-white my-8 rounded-lg  shadow-2xl lg:-right-24 lg:relative  max-w-96">
             <div className="m-6  space-y-10 mb-12 ">
               <div className="flex flex-col">
                 <label
@@ -144,7 +144,7 @@ const Register = () => {
                 </label>
                 <select
                   placeholder=""
-                  className="px-[166px] shadow-md py-2 rounded-md border-2 border-gray-300 hover:border-gray-300 bg-slate-100"
+                  className="w-full shadow-md py-2 rounded-md border-2 border-gray-300 hover:border-gray-300 bg-slate-100"
                 >
                   <option value="region"></option>
                   <option value="region"></option>
@@ -161,7 +161,7 @@ const Register = () => {
                 </label>
                 <select
                   placeholder=""
-                  className="px-[166px] shadow-md py-2 rounded-md border-2 border-gray-300 hover:border-gray-300 bg-gray-100"
+                  className="w-full shadow-md py-2 rounded-md border-2 border-gray-300 hover:border-gray-300 bg-gray-100"
                 >
                   <option value="region"></option>
                   <option value="region"></option>
@@ -179,7 +179,7 @@ const Register = () => {
                 <select
                   name="sellect a language"
                   id="name"
-                  className="px-[166px] shadow-md py-2 rounded-md border-2 border-gray-300 hover:border-gray-300 bg-gray-100"
+                  className="w-full shadow-md py-2 rounded-md border-2 border-gray-300 hover:border-gray-300 bg-gray-100"
                 >
                   <option value="region"></option>
                   <option value="region"></option>
@@ -187,12 +187,12 @@ const Register = () => {
                   <option value="region"></option>
                 </select>
               </div>
-              <div className=" bg-slate-100  flex justify-between w-full p-2 rounded-md shadow-md border-gray-300 border-2">
-                <div className="flex  space-x-2 items-center">
+              <div className=" bg-slate-100  flex lg:justify-between lg:flex-row items-center justify-center space-y-4 lg:space-y-0 flex-col w-full min-h-32 lg:p-2 rounded-md shadow-md border-gray-300 border-2">
+                <div className="flex   space-x-2 items-center">
                   <input type="checkbox" className=" w-6 h-6" />
                   <p className="text-gray-400 text-lg font-serif ">{`I'm not a robot`}</p>
                 </div>
-                <div className="space-y-2 ">
+                <div className=" flex mr-8 lg:mr-0">
                   <img
                     className="object-contain "
                     width={50}
@@ -206,7 +206,7 @@ const Register = () => {
                   </div>
                 </div>
               </div>
-              <button className="py-4  w-full bg-blue-800 text-gray-100 leading-relaxed rounded-md text-lg uppercase ">
+              <button className="py-4  w-full bg-blue-800 text-gray-100 leading-relaxed rounded-md lg:text-lg text-sm uppercase ">
                 Create free account
               </button>
               <p className="text-gray-400 font-serif">
