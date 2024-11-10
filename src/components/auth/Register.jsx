@@ -16,7 +16,7 @@ const Register = () => {
           </button>
         </div>
       </div>
-      <div className="space-y-10 lg:w-1/2 w-2/3 ">
+      <div className="space-y-10 lg:w-1/2 w-[90%] ">
         <h1 className="text-gray-300 lg:text-3xl text-lg font-sans leading-relaxed whitespace-pre-line flex justify-center">
           {` Sign up for free and\n experience Heroku today`}
         </h1>
@@ -31,7 +31,7 @@ const Register = () => {
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLWlGIee16kO-iJJUfkgvGPGLa9uneVhPBUg&s"
                   alt="*"
                 />
-                <span className="text-lg text-gray-500 font-bold shadow-lg">
+                <span className="text-md lg:text-lg text-gray-500 font-bold shadow-lg">
                   Free Account
                 </span>
               </div>
@@ -49,7 +49,7 @@ const Register = () => {
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLWlGIee16kO-iJJUfkgvGPGLa9uneVhPBUg&s"
                   alt="*"
                 />
-                <span className="text-lg text-gray-500 font-bold shadow-lg">
+                <span className="text-md lg:text-lg text-gray-500 font-bold shadow-lg">
                   Free Account
                 </span>
               </div>
@@ -67,7 +67,7 @@ const Register = () => {
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLWlGIee16kO-iJJUfkgvGPGLa9uneVhPBUg&s"
                   alt="*"
                 />
-                <span className="text-lg text-gray-500 font-bold shadow-lg">
+                <span className="text-md lg:text-lg text-gray-500 font-bold shadow-lg">
                   Free Account
                 </span>
               </div>
@@ -103,7 +103,7 @@ const Register = () => {
                 <input
                   type="text"
                   id="name"
-                  className="py-2 pl-4 pr-20 rounded-lg  border-gray-300 border-2 shadow-md"
+                  className="py-2 pl-4 pr-20 rounded-lg  border-gray-300 border-2 shadow-md truncate"
                   placeholder="Last name..."
                 />
               </div>
@@ -131,7 +131,7 @@ const Register = () => {
                 <input
                   type="text"
                   id="name"
-                  className="py-2 pl-4 pr-20 rounded-lg  border-gray-300 border-2 shadow-md"
+                  className="py-2 pl-4 pr-20 rounded-lg  border-gray-300 border-2 shadow-md truncate"
                   placeholder="Company name..."
                 />
               </div>
@@ -143,7 +143,7 @@ const Register = () => {
                   Role <span className="text-red-600">*</span>
                 </label>
                 <select
-                  placeholder=""
+                  placeholder="role"
                   className="w-full shadow-md py-2 rounded-md border-2 border-gray-300 hover:border-gray-300 bg-slate-100"
                 >
                   <option value="region"></option>
