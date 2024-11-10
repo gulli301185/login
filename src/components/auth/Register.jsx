@@ -1,6 +1,6 @@
 const Register = () => {
   return (
-    <div className=" flex flex-col lg:space-y-20 space-y-8 justify-center items-center bg-blue-800 py-8">
+    <div className=" flex flex-col lg:space-y-20 space-y-8 justify-center items-center bg-blue-800 py-8 overflow-y-scrolladd ">
       <div className=" lg:flex lg:justify-around lg:flex-row flex-col flex items-center lg:space-y-8 space-y-4 w-full">
         <img
           width={250}
@@ -77,7 +77,7 @@ const Register = () => {
               <div className="border-b-2 border-gray-400  shadow-lg"></div>
             </div>
           </div>
-          <div className="bg-white my-8 rounded-lg  shadow-2xl  lg:-right-24 lg:relative  max-w-96">
+          <div className="bg-white my-8 rounded-lg  shadow-2xl  lg:-right-24 lg:relative  lg:max-w-96 max-w-[95%]">
             <div className="m-6  space-y-10 mb-12 ">
               <div className="flex flex-col">
                 <label
